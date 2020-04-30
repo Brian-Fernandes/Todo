@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.411), blue);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_todo {
+    border-style:solid white ;      
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    align-items: center;
+}
+#form_general {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+#form_general input{
+    width: 200px;
+    
+}
+
+#btnCriarTodo{
+    background-color: chartreuse;
+}
+
+
